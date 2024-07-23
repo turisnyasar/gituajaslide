@@ -12,15 +12,13 @@ Syarat :
 
 1. Memanggil file-file berikut :
 
-   <link rel="stylesheet" href="slide-css.css">
-   <script src="slide.js"></script>
+   - slide-css.css
+   - slide.js
 	 
-2. Membuat elemen berikut pada HTML 
+2. Membuat elemen pada HTML 
    (id-nya terserah) :
 	 
-   <div id="lokasiSlide"></div>
-	 <script>
-	  buatSlide( "lokasiSlide" )
-	 </script>
+   (div id="lokasiSlide")(/div)
+   (script) buatSlide( "lokasiSlide" ) (/script)
 	 
-3. Ukuran resolusi semua gambar harus sama
+4. Ukuran resolusi semua gambar harus sama
