@@ -2,7 +2,9 @@ var dataSlide
 var slideW 
 var slideH
 var lokasi 
-var url = "http://localhost/gituajaslide/get-galeri.php?count=10"
+var lokal = document.location.toString()
+lokal = lokal.replaceAll("halaman.php", "")
+var url = lokal + "get-galeri.php?count=10"
 
 var currentSlide = 0
 
