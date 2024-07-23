@@ -16,7 +16,9 @@ Caption
 
 
 <script>
-url = "http://localhost/gituajaslide/get-galeri.php?count=10"
+lokal = document.location.toString()
+lokal = lokal.replaceAll("setting/galeri.php", "")
+url = lokal + "get-galeri.php?count=10"
 daftar = []
 
 async function getGaleri() {
